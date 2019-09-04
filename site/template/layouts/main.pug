@@ -1,0 +1,27 @@
+include ../mixins/index
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    script(type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    block styles
+      link(rel="stylesheet", href="assets/css/main.css")
+      link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css')
+      link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Merriweather:400,900,900i')
+
+      
+    title weather app
+  body
+    div(style="position: absolute; width: 0; height: 0; z-index: -10")
+      include ../../assets/svg/symbol/symbol.svg
+    include ./header
+    main
+      block content
+    include ./footer
+    block scripts
+      script(src="vendors-bundle.js")
+      script(src="runtimechunk~main-bundle.js")
+      script(src="main-bundle.js")
+      

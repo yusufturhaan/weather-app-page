@@ -1,0 +1,92 @@
+.footer {
+  background-color: #353854;
+  &__item2
+  {
+    width: 100px;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 98px 0;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        margin-bottom: -90px;
+    }
+  }
+  &__copyright {
+      padding: 50px 0;
+      text-align: right;
+  }
+}
+.copyright {
+    font-size: 16px;
+    color: #565b87;
+}
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+  }
+.section{
+    background-size: cover;
+  }
+  #button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    z-index: 1000;
+    
+  }
+  $color_1: #fff;
+$font_family_1: FontAwesome;
+$background_color_1: #333;
+$background_color_2: #555;
+
+#button {
+	&::after {
+		content: "\f077";
+		font-family: $font_family_1;
+		font-weight: normal;
+		font-style: normal;
+		font-size: 2em;
+		line-height: 50px;
+		color: $color_1;
+	}
+	&:hover {
+		cursor: pointer;
+		background-color: $background_color_1;
+	}
+	&:active {
+		background-color: $background_color_2;
+	}
+}
+#button.show {
+	opacity: 1;
+	visibility: visible;
+}
+ .social1{
+    
+  @media screen and(max-width:768px){
+    
+   position: relative;
+   margin-right: 0px;
+   right: 90px;
+  }
+  @media screen and(max-width:320px){
+    
+    position: relative;
+    margin-right: 0px;
+    right: 70px;
+   }
+ }

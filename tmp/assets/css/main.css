@@ -1,0 +1,1223 @@
+/*
+** Flexible Grid System Vendors https://dnomak.com/flexiblegs/install/scss-plus/
+*/
+i {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block; }
+
+.icon--arrow-down-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--arrow-left-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--arrow-right-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--arrow-up-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--facebook-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--github-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--heart-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--image-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--instagram-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--linkedin-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--phone-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--telegram-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--twitter-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--user-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--whatsapp-dims {
+  width: 16px;
+  height: 16px; }
+
+.icon--youtube-dims {
+  width: 16px;
+  height: 16px; }
+
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent; }
+
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap; }
+
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1; }
+
+.swiper-container-no-flexbox .swiper-slide {
+  float: left; }
+
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column; }
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box; }
+
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0); }
+
+.swiper-container-multirow > .swiper-wrapper {
+  flex-wrap: wrap; }
+
+.swiper-container-free-mode > .swiper-wrapper {
+  transition-timing-function: ease-out;
+  margin: 0 auto; }
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform; }
+
+.swiper-slide-invisible-blank {
+  visibility: hidden; }
+
+/* Auto Height */
+.swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+  height: auto; }
+
+.swiper-container-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height; }
+
+/* 3D Effects */
+.swiper-container-3d {
+  perspective: 1200px; }
+  .swiper-container-3d .swiper-wrapper, .swiper-container-3d .swiper-slide, .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-slide-shadow-bottom, .swiper-container-3d .swiper-cube-shadow {
+    transform-style: preserve-3d; }
+  .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-slide-shadow-bottom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 10; }
+  .swiper-container-3d .swiper-slide-shadow-left {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); }
+  .swiper-container-3d .swiper-slide-shadow-right {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); }
+  .swiper-container-3d .swiper-slide-shadow-top {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); }
+  .swiper-container-3d .swiper-slide-shadow-bottom {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); }
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-container-wp8-horizontal, .swiper-container-wp8-horizontal > .swiper-wrapper {
+  touch-action: pan-y; }
+
+.swiper-container-wp8-vertical, .swiper-container-wp8-vertical > .swiper-wrapper {
+  touch-action: pan-x; }
+
+.swiper-slide {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  width: 340px;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px 0px #ddd; }
+
+.swiper-container {
+  padding-bottom: 50px; }
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  -moz-background-size: 27px 44px;
+  -webkit-background-size: 27px 44px;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  right: -23px;
+  left: auto;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important; }
+  @media only screen and (max-width: 768px) {
+    .swiper-button-next {
+      display: none; } }
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  width: 27px;
+  height: 44px;
+  margin-top: -22px;
+  z-index: 10;
+  cursor: pointer;
+  -moz-background-size: 27px 44px;
+  -webkit-background-size: 27px 44px;
+  background-size: 27px 44px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%234c71ae'%2F%3E%3C%2Fsvg%3E") !important; }
+  @media only screen and (max-width: 768px) {
+    .swiper-button-prev {
+      display: none; } }
+
+*,
+h1,
+h2,
+h3,
+img {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Ubuntu', sans-serif; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+#promo {
+  background-image: url("../img/icons/wave.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  background-attachment: scroll;
+  background-color: #648cff; }
+
+.block {
+  display: flex;
+  justify-content: space-between; }
+  @media only screen and (max-width: 768px) {
+    .block {
+      flex-direction: column; } }
+
+#last {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  background-attachment: scroll;
+  background-color: #648cff; }
+
+.header {
+  background-color: #648cff;
+  width: 100%; }
+  .header__toggle {
+    display: none; }
+    @media only screen and (max-width: 768px) {
+      .header__toggle {
+        display: block; } }
+  @media only screen and (max-width: 768px) {
+    .header {
+      padding-top: 10px;
+      position: fixed;
+      z-index: 1000;
+      box-shadow: 1px 1px 1px #000;
+      outline-color: white;
+      display: inline-block; } }
+  .header .nav label {
+    font-size: 26px;
+    line-height: 70px;
+    top: 0;
+    right: 10px;
+    margin-top: 32px;
+    position: absolute;
+    display: none; }
+  .header #toggle {
+    display: none; }
+  .header #toggle:checked + .menu {
+    display: block; }
+  @media only screen and (max-width: 500px) {
+    .header label {
+      display: block !important;
+      cursor: pointer; } }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media only screen and (max-width: 768px) {
+      .header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px; } }
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px; }
+    @media only screen and (max-width: 768px) {
+      .header__content {
+        flex-direction: column;
+        display: flow-root; } }
+
+.footer {
+  background-color: #353854; }
+  .footer__item2 {
+    width: 100px; }
+  .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 98px 0; }
+    @media only screen and (max-width: 768px) {
+      .footer__content {
+        flex-direction: column;
+        margin-bottom: -90px; } }
+  .footer__copyright {
+    padding: 50px 0;
+    text-align: right; }
+
+.copyright {
+  font-size: 16px;
+  color: #565b87; }
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #27ae60; }
+
+.section {
+  background-size: cover; }
+
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,  opacity .5s, visibility .5s;
+  z-index: 1000; }
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff; }
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333; }
+
+#button:active {
+  background-color: #555; }
+
+#button.show {
+  opacity: 1;
+  visibility: visible; }
+
+@media screen and (max-width: 768px) {
+  .social1 {
+    position: relative;
+    margin-right: 0px;
+    right: 90px; } }
+
+@media screen and (max-width: 320px) {
+  .social1 {
+    position: relative;
+    margin-right: 0px;
+    right: 70px; } }
+
+.btn {
+  display: inline-block;
+  padding: 17px 42px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #4466c9;
+  border: 0px;
+  color: #ffffff; }
+  @media only screen and (max-width: 370px) {
+    .btn {
+      padding: 17px 30px; } }
+  .btn--circle {
+    border-radius: 50%;
+    position: absolute;
+    padding: 0px;
+    width: 80px;
+    height: 80px; }
+    @media only screen and (max-width: 768px) {
+      .btn--circle {
+        display: none; } }
+  .btn--sm {
+    width: 50px;
+    height: 50px;
+    font-size: 20,23px; }
+  .btn--bottom-left {
+    top: 100%;
+    left: -75px;
+    margin-top: 30px; }
+  .btn--bottom-right {
+    left: 100%;
+    top: 100%;
+    margin-left: 39px;
+    font-size: 18px; }
+  .btn--middle-right {
+    top: 40%;
+    left: 100%;
+    margin-left: 43px;
+    font-size: 16px; }
+  .btn--top-right {
+    top: 15%;
+    right: -30%; }
+  .btn--middle-left {
+    top: 50%;
+    right: 112%; }
+  .btn--secondary {
+    background-color: #fc6a42; }
+  .btn--white {
+    background-color: #ffffff;
+    color: #6ca3ff; }
+  .btn--yellow {
+    background-color: #fcec64;
+    color: #648cff; }
+
+.btn-group {
+  display: flex; }
+  .btn-group .btn {
+    margin-right: 8px;
+    margin-left: 11px; }
+
+.title {
+  font-size: 36px;
+  color: #648cff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold; }
+  .title--center {
+    margin-left: auto;
+    margin-right: auto; }
+
+.menu {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  list-style: none; }
+  @media only screen and (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      display: none; } }
+  .menu__item {
+    text-decoration: none;
+    margin: 0;
+    display: block; }
+  .menu__link {
+    display: inline-block;
+    padding: 25px 61px;
+    color: #e1e1e1;
+    text-decoration: none;
+    font-size: 16px; }
+    @media screen and (max-width: 768px) {
+      .menu__link {
+        width: 100%;
+        padding: 10px 5px; } }
+    @media screen and (max-width: 320px) {
+      .menu__link {
+        padding: 10px 5px; } }
+    .menu__link__link1 {
+      background-color: pink; }
+    .menu__link--secandry {
+      color: #ffffff;
+      text-decoration: none;
+      padding-left: 39px; }
+      @media screen and (max-width: 768px) {
+        .menu__link--secandry {
+          padding-left: 5px; } }
+      @media screen and (max-width: 320px) {
+        .menu__link--secandry {
+          padding-left: 5px; } }
+  .menu__item {
+    position: relative;
+    transition: all 0.5s;
+    text-decoration: none; }
+    @media screen and (max-width: 768px) {
+      .menu__item .menu__item1 {
+        border: none;
+        box-shadow: none;
+        padding-left: 20px; } }
+    .menu__item > .menu {
+      position: absolute;
+      top: 101%;
+      left: 0;
+      display: none;
+      min-width: 142px;
+      background-color: rgba(0, 0, 0, 0.2); }
+      @media screen and (max-width: 320px) {
+        .menu__item > .menu {
+          position: initial; } }
+      @media screen and (max-width: 768px) {
+        .menu__item > .menu {
+          position: initial;
+          background-color: transparent; } }
+    @media screen and (max-width: 768px) {
+      .menu__item:hover {
+        background-color: none; } }
+    .menu__item:hover > .menu {
+      display: block; }
+
+.logo {
+  color: #ffffff;
+  text-decoration: none; }
+
+.social_link {
+  margin-right: 20px;
+  float: left;
+  margin: 20px;
+  overflow: hidden;
+  text-align: center; }
+  @media screen and (max-width: 768px) {
+    .social_link {
+      float: center;
+      margin-right: 5px;
+      position: relative;
+      left: 70px; } }
+  @media screen and (max-width: 320px) {
+    .social_link {
+      margin-right: 5px;
+      position: relative;
+      left: 50px; } }
+
+.social_link:hover {
+  border-radius: 100%; }
+
+ul {
+  margin: 0 auto;
+  padding: 10px; }
+
+@media screen and (max-width: 768px) {
+  ul li {
+    list-style: none;
+    border-bottom: 1px solid #fff; } }
+
+.promo {
+  padding: 160px 0px;
+  color: #fff;
+  display: flex;
+  align-items: center; }
+  @media only screen and (max-width: 768px) {
+    .promo {
+      flex-direction: column;
+      padding: 50px 0; } }
+  .promo__action {
+    margin-top: 40px;
+    position: relative; }
+  .promo__title {
+    margin-bottom: 40px;
+    font-size: 60px; }
+    @media only screen and (max-width: 768px) {
+      .promo__title {
+        font-size: 30px;
+        margin-left: 15px;
+        padding-top: 50px; } }
+  .promo__image {
+    position: relative;
+    background-size: 100%;
+    margin-right: 240px; }
+    @media only screen and (max-width: 768px) {
+      .promo__image {
+        margin-right: 0;
+        margin-top: 50px; } }
+    .promo__image img {
+      max-width: 100%; }
+  .promo__desc {
+    font-size: 18px; }
+    @media only screen and (max-width: 768px) {
+      .promo__desc {
+        font-size: 16px;
+        margin-left: 20px; } }
+
+.section {
+  padding: 130px 0px; }
+  @media only screen and (max-width: 768px) {
+    .section {
+      padding: 70px 0px; } }
+  .section + section {
+    padding-top: 0px; }
+  .section__header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px; }
+    @media only screen and (max-width: 768px) {
+      .section__header {
+        margin-bottom: 10px; } }
+
+.card {
+  display: flex; }
+  .card__icon {
+    margin-right: 10px; }
+  .card__info {
+    font-size: 24px;
+    margin-bottom: 15px; }
+  .card__desc {
+    font-size: 16px;
+    color: #aeaeae;
+    margin-bottom: 15px;
+    letter-spacing: 0; }
+  .card__title {
+    padding-bottom: 30px;
+    color: #353854; }
+
+.sm-text {
+  padding: 34px;
+  color: #999999; }
+
+.carousel {
+  position: relative;
+  display: block; }
+  .carousel__arrow {
+    display: flex; }
+  .carousel__img {
+    width: 100%; }
+    @media only screen and (max-width: 768px) {
+      .carousel__img {
+        height: 200px; } }
+  .carousel__content {
+    position: relative; }
+  .carousel__item.push-right {
+    z-index: 0;
+    left: 70%;
+    transform: scale(0.9); }
+    @media only screen and (max-width: 768px) {
+      .carousel__item.push-right {
+        transform: scale(0.9) translateX(95px); } }
+    @media only screen and (max-width: 320px) {
+      .carousel__item.push-right {
+        transform: scale(0.9) translateX(124px); } }
+  .carousel__item.get-center {
+    left: 32%;
+    transform: scale(1) translateX(230px); }
+    @media only screen and (max-width: 768px) {
+      .carousel__item.get-center {
+        transform: scale(1) translateX(168px);
+        z-index: 3; } }
+    @media only screen and (max-width: 320px) {
+      .carousel__item.get-center {
+        transform: scale(1) translateX(165px);
+        z-index: 3; } }
+  .carousel__item.push-left {
+    left: 34%;
+    z-index: 0;
+    transform: scale(0.9); }
+    @media only screen and (max-width: 768px) {
+      .carousel__item.push-left {
+        transform: scale(0.9) translateX(85px); } }
+    @media only screen and (max-width: 320px) {
+      .carousel__item.push-left {
+        transform: scale(0.9) translateX(84px); } }
+  .carousel__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    margin-top: -67px;
+    background-color: transparent;
+    border: none; }
+    .carousel__btn--left {
+      left: 0; }
+    .carousel__btn--right {
+      right: 0; }
+    .carousel__btn:focus {
+      outline: none; }
+    @media screen and (max-width: 720px) {
+      .carousel__btn .right,
+      .carousel__btn .left {
+        display: none; } }
+
+.info-graphic {
+  display: flex;
+  align-items: center;
+  max-width: 1025px;
+  padding: 90px 0;
+  margin: 0 auto; }
+  @media only screen and (max-width: 768px) {
+    .info-graphic {
+      flex-direction: column;
+      margin-bottom: -177px;
+      margin-top: -100px; } }
+  .info-graphic__title {
+    margin-bottom: 30px; }
+    @media only screen and (max-width: 768px) {
+      .info-graphic__title {
+        font-size: 25px;
+        margin-left: 15px; } }
+  .info-graphic__desc {
+    line-height: 30px;
+    font-size: 24px; }
+    @media only screen and (max-width: 768px) {
+      .info-graphic__desc {
+        font-size: 18px; } }
+  .info-graphic img {
+    max-width: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+  .info-graphic__graphic {
+    margin-right: 90px; }
+  .info-graphic--right .info-graphic__graphic {
+    margin-right: 0;
+    margin-left: 90px; }
+
+.explanation-text {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex; }
+  @media only screen and (max-width: 768px) {
+    .explanation-text {
+      flex-direction: column;
+      text-align: center; } }
+  .explanation-text__desc {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    @media only screen and (max-width: 768px) {
+      .explanation-text__desc {
+        font-size: 20px; } }
+  .explanation-text__desc2 {
+    margin-top: 100px;
+    font-size: 16px; }
+  .explanation-text__icon4 {
+    padding-bottom: 150px;
+    margin-left: 400px; }
+  .explanation-text__icon5 {
+    margin-left: 475px; }
+  .explanation-text__desc1 {
+    font-size: 18px; }
+  .explanation-text__icon {
+    padding: 15px; }
+  .explanation-text__text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative; }
+    .explanation-text__text:before, .explanation-text__text:after {
+      content: '';
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center; }
+    .explanation-text__text:before {
+      left: 0;
+      bottom: 100%;
+      background-image: url("../img/icons/icon4.png"); }
+    .explanation-text__text:after {
+      right: 0;
+      top: 100%;
+      background-image: url("../img/icons/icon5.png"); }
+
+.last {
+  background-color: #648cff;
+  background-image: url("../img/icons/three.png");
+  background-repeat: no-repeat;
+  background-position: right 110px;
+  background-size: 50%;
+  padding: 100px 0px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif; }
+  @media only screen and (max-width: 768px) {
+    .last {
+      flex-direction: column;
+      background-position: center 410px; } }
+  @media only screen and (max-width: 320px) {
+    .last {
+      flex-direction: column;
+      background-position: center 435px; } }
+  .last__title {
+    padding-bottom: 50px; }
+  .last__desc {
+    font-size: 18px; }
+  .last__informations {
+    float: left;
+    overflow: hidden; }
+  .last__graphic-icon1 {
+    max-width: 100%; }
+  @media screen and (max-width: 768px) {
+    .last__graphic-icon {
+      margin-left: 4px;
+      margin-top: 11px;
+      width: 120px; } }
+  .last__graphic-icon:last-child {
+    margin-left: 95px;
+    margin-top: 37px; }
+    @media screen and (max-width: 320px) {
+      .last__graphic-icon:last-child {
+        margin-left: 46px;
+        margin-top: 11px;
+        width: 120px;
+        float: right; } }
+
+.detail {
+  display: flex; }
+  @media only screen and (max-width: 768px) {
+    .detail {
+      flex-direction: column; } }
+
+.accordion {
+  max-width: 500px;
+  min-width: 300px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden; }
+  @media only screen and (max-width: 768px) {
+    .accordion {
+      margin-right: 0;
+      margin-bottom: 20px; } }
+  .accordion__header {
+    width: 100%;
+    padding: 20px;
+    background-color: #4466c9;
+    color: #ffF;
+    cursor: pointer;
+    box-sizing: border-box; }
+  .accordion__content {
+    background-color: #4466c9;
+    padding: 20px;
+    width: 100%;
+    display: none;
+    box-sizing: border-box; }
+
+.tab {
+  width: 100%; }
+  .tab__nav {
+    display: flex;
+    align-items: center;
+    width: 100%; }
+  .tab__btn {
+    width: 100%;
+    border: none;
+    padding: 20px; }
+    @media screen and (max-width: 768px) {
+      .tab__btn {
+        padding: 13px; } }
+    .tab__btn + .tab__btn {
+      margin-left: 10px; }
+    .tab__btn:focus {
+      outline: none; }
+  .tab__contents {
+    margin-top: 20px; }
+  .tab__content {
+    display: none; }
+
+.products {
+  display: flex; }
+  @media only screen and (max-width: 768px) {
+    .products {
+      flex-direction: column; } }
+
+.product {
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .product__name {
+    font-size: 17px;
+    color: #000; }
+  .product__img {
+    width: 200px; }
+  .product__rate {
+    font-size: 15px; }
+
+/*# sourceMappingURL=main.css.map */
