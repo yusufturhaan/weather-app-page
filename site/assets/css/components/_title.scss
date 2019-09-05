@@ -1,0 +1,11 @@
+.title {
+    font-size: 36px;
+    color: #648cff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+
+    &--center{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

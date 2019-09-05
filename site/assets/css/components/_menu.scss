@@ -1,0 +1,172 @@
+.menu {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  list-style: none;
+   
+  
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+   
+    display: none;
+  }
+  @media only screen and (max-width: 320px) {
+     
+  }
+    &__item{
+      text-decoration: none;
+      margin: 0;
+      display: block;
+      
+    }
+  
+   
+  &__link {
+    display: inline-block;
+    padding: 25px 61px;
+    color: #e1e1e1;
+    text-decoration: none;
+    font-size: 16px;
+    @media screen and(max-width:768px)
+    {
+      width: 100%;
+      padding: 10px 5px;
+    }
+    @media screen and(max-width:320px)
+    {
+      padding: 10px 5px;
+    }
+    &__link1
+    {
+      background-color: pink;
+    }
+
+    &--secandry {
+      color: #ffffff;
+      text-decoration: none;
+      padding-left: 39px;
+
+      @media screen and(max-width:768px) {
+        padding-left: 5px;
+        
+        
+      }
+      @media screen and(max-width:320px) {
+        padding-left: 5px;
+        
+      }
+    }
+  }
+  
+
+  &__item  {
+    position: relative;
+    transition: all 0.5s;
+    text-decoration: none;
+
+.menu__item1{
+
+
+    @media screen and(max-width:768px)
+    {
+      border:none;
+      box-shadow: none;
+      padding-left: 20px;
+       
+    }
+
+      
+
+
+  }
+    
+
+    > .menu {
+      position: absolute;
+      top: 101%;
+      left: 0;
+      display: none;
+      min-width: 142px;
+      background-color: rgba(0, 0, 0, 0.2);
+      @media screen and(max-width:320px){
+
+       position: initial;
+      }
+      @media screen and(max-width:768px){
+
+        position: initial;
+        background-color:transparent;
+        
+       }
+    }
+
+    &:hover {
+      @media screen and(max-width:768px)
+      {
+        background-color:none;
+      }
+      //  background-color: #fc6a42;
+
+       
+     
+      > .menu {
+        display: block;
+        
+      }
+    }
+  }
+}
+
+.logo {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social_link {
+  margin-right: 20px;
+  float:left;
+  margin: 20px;
+  overflow: hidden;
+  text-align: center;
+   
+
+  @media screen and(max-width:768px)
+  {
+    float: center;
+   
+    margin-right: 5px;
+    position: relative;
+    left: 70px;
+     
+  }
+  @media screen and(max-width:320px){
+    margin-right: 5px;
+    position: relative;
+    left: 50px;
+     
+
+  }
+
+  
+}
+
+.social_link:hover{
+  border-radius:100%;
+}
+
+ ul{ 
+	margin: 0 auto;
+	padding: 10px;
+   
+}
+ul li{
+ 
+  @media screen and(max-width:768px){
+    
+    list-style: none;
+    border-bottom: 1px solid #fff;
+
+ 
+
+  }
+}

@@ -1,0 +1,27 @@
+.products {
+    display: flex;
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.product {
+    color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &__name {
+        font-size: 17px;
+        color: #000;
+    }
+
+    &__img {
+        width: 200px;
+    }
+
+    &__rate {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,89 @@
+.carousel {
+  position: relative;
+  display: block;
+
+  &__arrow {
+    display: flex;
+  }
+
+  &__img {
+    width: 100%;
+
+    @media only screen and (max-width: 768px) {
+      height: 200px;
+    }
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__item {
+    &.push-right {
+      z-index: 0;
+      left: 70%;
+      transform: scale(0.9);
+
+      @media only screen and (max-width: 768px) {
+        transform: scale(0.9) translateX(95px);
+      }
+      @media only screen and (max-width: 320px) {
+        transform: scale(0.9) translateX(124px);
+      }
+    }
+
+    &.get-center {
+      left: 32%;
+      transform: scale(1) translateX(230px);
+
+      @media only screen and (max-width: 768px) {
+        transform: scale(1) translateX(168px);
+        z-index: 3;
+      }
+      @media only screen and (max-width: 320px) {
+        transform: scale(1) translateX(165px);
+        z-index: 3;
+      }
+    }
+
+    &.push-left {
+      left: 34%;
+      z-index: 0;
+      transform: scale(0.9);
+
+      @media only screen and (max-width: 768px) {
+        transform: scale(0.9) translateX(85px);
+      }
+      @media only screen and (max-width: 320px) {
+        transform: scale(0.9) translateX(84px);
+      }
+    }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    margin-top: -67px;
+    background-color: transparent;
+    border: none;
+  
+    &--left {
+      left: 0;
+    }
+
+    &--right {
+      right: 0;
+    }
+
+    &:focus {
+      outline: none;
+    }
+    .right,
+    .left {
+      @media screen and(max-width:720px) {
+        display: none;
+      }
+    }
+  }
+}

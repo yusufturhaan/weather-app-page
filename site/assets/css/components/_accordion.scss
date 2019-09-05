@@ -1,0 +1,29 @@
+.accordion {
+    max-width: 500px;
+    min-width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media only screen and (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    &__header {
+        width: 100%;
+        padding: 20px;
+        background-color: #4466c9;
+        color: #ffF;
+        cursor: pointer;
+        box-sizing: border-box;
+    }
+
+    &__content {
+        background-color: #4466c9;
+        padding: 20px;
+        width: 100%;
+        display: none;
+        box-sizing: border-box;
+    }
+}
